@@ -1,2 +1,2 @@
-#!/bib/bash
-cat /etc/passwd
+#!/bin/bash
+cat /etc/passwd and /etc/hosts
