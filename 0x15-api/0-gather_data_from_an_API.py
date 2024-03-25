@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 '''
 get employee data from API
-
 '''
 import sys
 import re
