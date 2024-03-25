@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""
-Export api to csv
-"""
+
+"""Export api to csv"""
 import requests
 import csv
 import sys
@@ -17,7 +16,6 @@ if __name__ == '__main__':
     tasks = res.json()
 
     with open('{}.csv'.format(user), 'w') as csvfile:
-	"""using for loop"""
         for task in tasks:
             completed = task.get('completed')
             """Complete"""
