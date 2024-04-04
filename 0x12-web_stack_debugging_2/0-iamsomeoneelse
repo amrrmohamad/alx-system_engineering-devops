@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# Runs whoami
-sudo -u "$1" whoami
