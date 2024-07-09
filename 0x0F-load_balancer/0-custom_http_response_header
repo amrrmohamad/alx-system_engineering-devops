@@ -19,7 +19,7 @@ function install() {
 	else
 		echo -e "	${1} is already installed.\n"
 	fi
-}-
+}
 
 install nginx #install nginx
 
