@@ -2,9 +2,10 @@
 '''
 get employee data from API
 '''
-import sys
 import re
 import requests
+import sys
+
 
 REST_API = "https://jsonplaceholder.typicode.com"
 
